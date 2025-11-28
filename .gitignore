@@ -1,8 +1,23 @@
+# Xcode
 .DS_Store
-/.build
-/Packages
+*.swp
+*.lock
+*~.nib
+*.pbxuser
+*.mode1v3
+*.mode2v3
+*.perspectivev3
 xcuserdata/
 DerivedData/
-.swiftpm/configuration/registries.json
-.swiftpm/xcode/package.xcworkspace/contents.xcworkspacedata
-.netrc
+build/
+*.moved-aside
+*.xccheckout
+*.xcworkspace
+!default.xcworkspace
+
+# Swift Package Manager
+.build/
+.swiftpm/
+
+# CocoaPods
+Pods/
